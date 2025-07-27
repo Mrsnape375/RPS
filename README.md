@@ -1,18 +1,52 @@
-# Rock-Paper-Scissors Game 🎮
+# 🖐️ Rock, Paper, Scissors, Lizard, Spock
 
-A simple Rock-Paper-Scissors game made using Python. The player competes against the computer in 3 rounds. After each set of 3 rounds, the player can choose to play again or exit.
+An extended version of the classic Rock-Paper-Scissors game — now featuring **Lizard** and **Spock**, inspired by *The Big Bang Theory*!
 
-## 📌 Features
-- Three rounds of gameplay per session
-- Input validation for player choices
-- Random computer moves using Python's `random` module
-- Option to replay the game
+---
 
-## 💻 How to Run
+## 🎮 How to Play
 
-1. Make sure Python is installed on your system.
-2. Download or clone this repository.
-3. Open a terminal and run the file:
+1. Run the Python file.
+2. Choose one of the five options:
+   - `rock`
+   - `paper`
+   - `scissors`
+   - `lizard`
+   - `spock`
+3. The computer will pick randomly too.
+4. The game decides the winner based on the rules below.
+5. Play as many rounds as you like!
+
+---
+
+## 🤯 Rules
+
+- Scissors cuts Paper ✂️📄
+- Paper covers Rock 📄🪨
+- Rock crushes Lizard 🪨🦎
+- Lizard poisons Spock 🦎🖖
+- Spock smashes Scissors 🖖✂️
+- Scissors decapitates Lizard ✂️🦎
+- Lizard eats Paper 🦎📄
+- Paper disproves Spock 📄🖖
+- Spock vaporizes Rock 🖖🪨
+- Rock crushes Scissors 🪨✂️
+
+---
+
+## ✅ Features
+
+- Supports 5-item logic: rock, paper, scissors, lizard, spock
+- Handles invalid inputs
+- Tracks player and computer scores
+- Allows multiple rounds
+- Clean, beginner-friendly Python code
+
+---
+
+## ▶️ Run the Game
+
+Make sure you have Python installed, then run:
 
 ```bash
-python rps.py
+python rps_lizard_spock.py
